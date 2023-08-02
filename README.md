@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+Authentication with clerk:
+
+1. sign in to clerk
+2. add keys to env file
+3. npm install @clerk/nextjs
+4.wrap up the components inside <ClerkProvider> </ClerkProvider> in layout.tsx
+5.create middeleware.ts file in root folder
+6. copy urls in .env and change the url after sign-in and sign-up
+7. In middelsware.ts add publicroutes url
+
+Centering login Page:
+
+1.create LayOut.tsx file in [auth] folder and make the changes
+2. this is the common Lyout file that can effect both sign in and sign out.
+3
+
